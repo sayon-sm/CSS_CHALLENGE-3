@@ -22,6 +22,20 @@ h2 {
   background-color: #e7e7e7;
   text-align: center;
   padding: 20px;
+  position: relative;
+}
+
+h2::after {
+  content: 'SALE';
+  position: absolute;
+  top: -18px;
+  left: -30px;
+
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  letter-spacing: 3px;
+  padding: 10px;
 }
 
 p strong {
@@ -75,5 +89,35 @@ button:hover {
 
 #less {
   font-size: 30px;
-  margin-bottom: 5px;
+}
+
+ul:first-of-type li {
+  display: inline-block;
+  list-style: none;
+}
+
+#li1 {
+  margin-left: 0px;
+  padding: 10px;
+  background-color: black;
+}
+#li2 {
+  padding: 10px;
+  background-color: blue;
+}
+#li3 {
+  padding: 10px;
+  background-color: red;
+}
+#li4 {
+  padding: 10px;
+  background-color: yellow;
+}
+#li5 {
+  padding: 10px;
+  background-color: orange;
+}
+#li6 {
+  padding: 10px;
+  background-color: brown;
 }
