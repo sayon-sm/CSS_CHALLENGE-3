@@ -101,7 +101,6 @@ button {
 button:hover {
   background-color: white;
   color: black;
-  text-transform: uppercase;
 }
 
 .bottom {
